@@ -1,0 +1,547 @@
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* whole site*/
+h1,h2, h3, h4{
+	font-family: 'Fira Sans', sans serif;
+}
+
+
+h1{
+	font-size: 64px;
+	font-weight: 600;
+	text-align: center;
+	margin:0;
+}
+
+
+h4{
+	font-size: 18px;
+	text-align: center;
+	color: #2782F9;
+	padding-bottom: 20px;
+	font-weight: 700;
+	margin-top: 5px;
+
+}
+
+#slogan{
+	font-size: 35px;
+	text-align: center;
+	font-weight: 500;
+}
+
+
+p, a{
+	font: open sans;
+	line-height: 1.5em;
+	font-size: 20px;
+}
+
+
+.container{
+	background-color: #fbfbfb;
+}
+
+/*-----------------navbar---------------*/
+.topnav{
+	text-align: center;
+	width: 100%;
+	background-color: #fbfbfb;
+	float: left;
+	padding-top:5px;
+	padding-bottom: 5px;
+	top:0;
+	position: fixed;
+	z-index: 1;
+}
+
+
+.topnav a{
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px;
+	color: #2E3138;
+	font-weight: 500;
+	font-family: 
+
+}
+
+#logo{
+	float: left;
+}
+
+#about, #contact{
+	float: right;
+}
+
+.menu-left{
+	box-sizing: border-box;
+	width:50%;
+	float: left; 
+	padding-left: 16%;
+	padding-top: 5px;
+}
+
+.menu-right{
+	box-sizing: border-box;
+	float: right;
+	width: 50%;
+	text-decoration: none;
+	text-align:center;
+	padding-right: 16%;
+	
+}
+
+/*-----------Homepage-----------------*/
+.photo{
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+	width: 50%;
+}
+
+
+.photo-middle{
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+	border: 1px solid white;
+}
+
+
+.photo{
+	box-sizing: border-box;
+	position: relative;
+	width: 50%;
+	border: 1px solid #ffffff;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width:100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  clear: both;
+}
+
+.photo:hover .image, .photo-middle:hover .image {
+  opacity: 0.3;
+}
+
+.photo:hover .middle,.photo-middle:hover .middle  {
+  opacity: 1;
+
+}
+
+.case-button{
+  background-color: #2782F9;
+  color: white;
+  font-family: 'Fira Sans', sans serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 32px;
+}
+
+.case-button a{
+	text-decoration: none;
+	color:#fbfbfb;
+}
+
+.title{
+font-size: 26px;
+padding-bottom:30px;
+font-weight: 600px;
+font-family: 'Fira Sans', sans serif;
+
+}
+
+
+
+
+/* ---------------case study page---------------*/
+
+header{
+	clear: both;
+	padding-top: 40px;
+}
+
+.top, .branding, .prototype {
+	padding-right:16%;
+	padding-left:16%;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-color: #fbfbfb;
+	clear: both;
+}
+.ux{
+	background-color: #2782F9;
+	padding-right: 16%;
+	padding-left:16%;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	color: #fbfbfb;
+	clear: both;
+}
+
+.ui{
+	background-color: #2E3138;
+	padding-right: 16%;
+	padding-left:16%;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	color: #fbfbfb;
+}
+
+
+
+#laptop{
+	box-sizing: border-box;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.overview{
+	width: 90%;
+	margin:auto;
+	
+}
+.overview h2, .problem h2, .results h4{
+text-align: center}
+
+.problem{
+	box-sizing: border-box;
+	float: left;
+	padding: 40px;
+	width: 50%;
+	text-align: left;
+	background-color: #fbfbfb;
+}
+	
+
+.survey h3 {
+	color: #fbfbfb;
+}
+
+.results{
+	box-sizing: border-box;
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.results-head{
+	padding: 0px;
+	margin-bottom: 0px;
+	color:#fbfbfb;
+}
+
+
+.analysis {
+	width: 80%;
+	clear:both;
+	padding-top: 40px;
+}
+
+.survey{
+	width: 80%;
+	clear: both;
+
+}
+
+.results-head{
+	font-size: 19px;
+	font-weight: 500;
+
+}
+
+
+.information, .results-chart{
+	padding-top: 40px;
+}
+
+
+.information p, .branding p, .ui p{
+	width: 50%;
+	overflow: hidden;
+}
+.branding h2{
+	width: 50%;
+	float: right;
+	margin-right: 35px;
+}
+
+
+.branding h3{
+	color: #2782F9;
+	width: 50%;
+	overflow: hidden;
+
+}
+
+.information img{
+	float: right;
+	margin-top: 20px;
+
+}
+
+.branding img{
+	float: left;
+	margin-right: 40px;
+	margin-top: 100px;
+}
+
+.ui img{
+	float: right;
+	padding-bottom: 40px;
+}
+
+.prototype h2 {
+	text-align: center;
+}
+
+.prototype img{
+	padding-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+
+
+
+
+
+.view-proto{
+	margin: auto;
+	width: 150px;
+	height: 40px;
+	border: 2px #2782F9 solid;
+	text-align: center;
+	padding-top: 5px;
+}
+.view-proto a{
+	text-decoration: none;
+	font-size: 18px; 
+	color:#2782F9;
+	font-weight: 500;
+
+}
+
+
+.view-proto-top, .view-proto-survey{
+	width: 150px;
+	height: 40px;
+	border: 2px #2782F9 solid;
+	text-align: center;
+	padding-top: 5px;
+}
+.view-proto-top a{
+	text-decoration: none;
+	font-size: 18px; 
+	color:#2782F9;
+	font-weight: 500;
+
+}
+
+.view-survey{
+	width: 150px;
+	height: 40px;
+	border: 2px #fbfbfb solid;
+	text-align: center;
+	padding-top: 5px;
+}
+.view-survey a{
+	text-decoration: none;
+	font-size: 18px; 
+	color: #fbfbfb;
+	font-weight: 500;
+}
+
+.get-in-touch{
+	width: 50%;
+	margin: auto;
+}
+
+.get-in-touch h3 {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+.get-in-touch a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 30px;
+	color: #2782F9;
+	margin: auto;
+}
+
+
+.call-to-action{
+	padding-left: 16%;
+	padding-right: 16%;
+	
+}
+
+
+/*------------footer-----------*/
+footer{
+
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	
+	background-color: #fbfbfb;
+	clear: both;
+	padding-bottom: 20px;
+
+}
+footer a {
+	font-size: 28px;
+	display: inline-block;
+	color: rgba(46, 49, 56, 1);
+	padding: 20px;
+	text-decoration: none;
+
+
+}
+
+
+
+/*---------------home page media queries---------------------*/
+
+@media (max-width: 800px) {
+
+	.menu-right{
+  		padding-right: 8%;
+  	}
+
+  	.menu-left{
+  		padding-left: 8%;
+  	}
+
+	.photo, .image, .middle {
+  		display: block;
+    	width: 100%;
+  	}
+
+  	.photo:hover .middle,.photo-middle:hover .middle, .photo:hover .image, .photo-middle:hover .image {
+   		display: none;
+   		display: block;
+   		transition: none;
+  	}
+
+	.middle{
+		transition: none;
+		opacity: 1;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		text-align: center;
+		clear: both;
+	}
+
+	.case-button{
+		position: relative;
+		width: 80%;
+		margin: auto;
+	}
+
+	.title{ 
+		position: relative;
+		padding-bottom: 20px;
+		font-size: 24px;
+		margin-top:80px; }
+	}
+
+@media  (max-width: 800px) {
+	h1{
+		font-size: 30px;
+	}
+	#slogan{
+		font-size: 20px;
+	}
+	h4{
+		margin-top: 5px;
+		font-size:16px;
+		padding-bottom: 5px;
+  	}
+  
+}
+
+
+
+
+/*---------------Case Study media queries---------------------*/
+
+@media (max-width: 800px){
+
+	 .branding img {
+		object-fit: scale-down;
+   		width:100%;
+   		height: 50%;
+   		padding-bottom: 40px;
+   		margin: 0;
+	}
+
+	.prototype img, .ui img, #laptop {
+		object-fit: scale-down;
+   		width:100%;
+   		height: 50%;
+   		margin:auto;
+	}
+
+	.information img{
+		object-fit: scale-down;
+		margin: auto;
+		width:100%;
+   		height: 50%;
+		clear: both;
+	}	
+
+	.information p, .branding p, .branding h2,  .ui p{
+		object-fit: scale-down;	
+   		width:100%;
+   		
+  	}
+
+	.results, .results-head,.analysis, .survey, .information{
+   		width:100%;
+  	}
+
+	.overview{
+   		width:100%;
+   		padding-bottom: 20px;
+  	}
+
+  	.ui, .ux, .top, .branding, .protoype, .call-to-action {
+    	width: 100%;
+    	clear: both;
+  	}
+  	.problem{
+  		padding: 0px;
+  		float: none;
+  		width: 100%;
+  	}
+  	.get-in-touch h3, .get-in-touch a{
+  		font-size: 24px;
+  		width: 100%;
+  	}
+}
+
