@@ -17,7 +17,7 @@
 		<link rel="stylesheet" type="text/css" href="css/nomalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800,900" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400, 700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	</head>
 	<body>
@@ -38,44 +38,24 @@
 				<header>
 					<h1>Denny Schroeder</h1>
 					<h4>UX/UI designer based in Phoenix</h4>
-					<h2 id="slogan">simple, intuitive design</h2>
 				</header>
+
+				<div class = "contact-me">
+					<h2> Drop me a line!</h2>
+					<p> Want to talk golf, travel, or your next design project? Let's grab a coffee and talk.
+					</p>
+					<p> I'll respond to your email as soon as possible. </p>
+				</div>
 			
-					<div class="photo">
-						<img src="Images/markus-spiske-37176-unsplash.jpg" class="image" alt="laptop on desk">
-						<div class="middle">
-							<div class="title" >Aurora Cloud Storage</div>
-							<div class = "case-button"><a href="aurora.html">Case Study</a></div>
-						</div>
-					</div>
-					<div class="photo">
-						<img src="Images/alejandro-escamilla-1-unsplash.jpg" class="image" alt="laptop on desk with espresso cup">
-						<div class="middle">
-							<div class="title">Coming Soon</div>
-							<div class = "case-button"><a href="">Case Study</a></div>
-						</div>
-					</div>
-					<div class="photo-middle">
-						<img src="Images/alex-knight-192782-unsplash.jpg" class="image" alt="laptop on desk with coffee cup" >
-						<div class="middle">
-							<div class="title">Coming Soon</div>
-							<div class = "case-button"><a href="">Case Study</a></div>
-						</div>
-					</div>
-					<div class="photo">
-						<img src="Images/kevin-bhagat-343433-unsplash.jpg" class="image" alt="laptop on desk with plant" >
-						<div class="middle">
-							<div class="title">Coming Soon</div>
-							<div class = "case-button"><a href="">Case Study</a></div>
-						</div>
-					</div>
-					<div class="photo">
-						<img src="Images/norbert-levajsics-183706-unsplash.jpg" class="image" alt="computer on desk">
-						<div class="middle">
-							<div class="title">Coming Soon</div>
-							<div class = "case-button"><a href="">Case Study</a></div>
-						</div>
-					</div>
+				
+				<form id="contact-form" method="POST" action="https://formspree.io/denny.schroeder77@gmail.com">
+				<h3>Email Address</h3>
+  				<input type="email" name="email" placeholder="Enter your email here">
+  				<h3> Message</h3>
+ 				<textarea name="message" placeholder="Type your message here..."></textarea>
+  				<button type="submit" id= "conact-form-send">Send</button>
+				</form>
+			
 			
 				<footer>
 					<a href="https://www.linkedin.com/in/denny-schroeder">

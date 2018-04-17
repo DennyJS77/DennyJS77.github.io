@@ -21,7 +21,6 @@ h4{
 	font-size: 18px;
 	text-align: center;
 	color: #2782F9;
-	padding-bottom: 20px;
 	font-weight: 700;
 
 }
@@ -115,6 +114,82 @@ a{ font-family: "Open Sans";
 	margin: auto;
 }
 
+
+#contact-form {
+	width: 400px;
+	padding: 20px;
+    display: block;
+    float: right;
+ 
+}
+
+#contact-form h3{
+	margin-bottom: 5px;
+	font-size: 18px;
+ 
+}
+.contact-me{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	padding-left: 20px;
+	
+}
+
+.contact-me h2{
+	font-size: 36px;
+}
+
+
+
+button {
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 1px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 4px;
+    margin: auto;
+    color: #fff;
+    background-color: #2782F9;
+    width: 100%;
+}
+
+ input{
+ 	    width: 100%;
+    background-color: #fbfbfb;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #2e3138;;
+    border: 1px solid #2E3138;
+}
+
+
+
+ textarea{
+  	    width: 100%;
+    background-color: #fbfbfb;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #2e3138;
+    border: 1px solid #2E3138;
+}
+
+
 /*-----------Homepage-----------------*/
 .photo{
 	box-sizing: border-box;
@@ -182,7 +257,7 @@ a{ font-family: "Open Sans";
 }
 
 .title{
-font-size: 26px;
+font-size: 30px;
 padding-bottom:30px;
 font-weight: 600px;
 font-family: 'Fira Sans', sans serif;
@@ -206,6 +281,7 @@ header{
 	padding-top: 50px;
 	background-color: #fbfbfb;
 	clear: both;
+	overflow: auto;
 }
 .ux{
 	background-color: #2782F9;
@@ -437,7 +513,7 @@ footer{
 	bottom: 0;
 	width: 100%;
 	text-align: center;
-	
+	padding-top: 20px;
 	background-color: #fbfbfb;
 	clear: both;
 	padding-bottom: 20px;
@@ -465,6 +541,32 @@ footer a {
 	.aboutme{
 		width: 100%;
 		margin:auto;
+	}
+
+	.contact-me{
+		width: 100%;
+		margin: auto;
+	}
+
+	.contact-me h2{
+		font-size: 30px;
+	}
+
+	#contact-form{
+		width: 100%;
+		object-fit: scale-down;
+		float: left;
+		margin: auto;
+	}
+
+	p { 
+		font-size: 18px;
+	 }
+
+	button, textarea, input{
+		width: 100%;
+		justify-content: center;
+		overflow: auto;
 	}
 }
 /*---------------home page media queries---------------------*/
