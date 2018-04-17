@@ -492,11 +492,13 @@ text-align: center}
 }
 
 .get-in-touch a{
-	text-decoration: none;
 	text-align: center;
+	text-decoration: none;
 	font-size: 30px;
 	color: #2782F9;
 	margin: auto;
+	font-family: 'Fira Sans', sans serif;
+	font-weight: 700;
 }
 
 
