@@ -222,15 +222,15 @@ button {
 }
 
 .middle {
-  	transition: .5s ease;
-  	opacity: 0;
-  	position: absolute;
- 	 top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-  	-ms-transform: translate(-50%, -50%);
-  	text-align: center;
-  	clear: both;
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+	clear: both;
 }
 
 .photo:hover .image, .photo-middle:hover .image {
@@ -249,6 +249,7 @@ button {
   font-size: 16px;
   font-weight: 400;
   padding: 16px 32px;
+  border-radius: 4px;
 }
 
 .case-button a{
@@ -441,6 +442,7 @@ text-align: center}
 	border: 2px #2782F9 solid;
 	text-align: center;
 	padding-top: 5px;
+	border-radius: 4px;
 }
 .view-proto a{
 	text-decoration: none;
@@ -451,12 +453,13 @@ text-align: center}
 }
 
 
-.view-proto-top, .view-proto-survey{
+.view-proto-top{
 	width: 150px;
 	height: 40px;
 	border: 2px #2782F9 solid;
 	text-align: center;
 	padding-top: 5px;
+	border-radius: 4px;
 }
 .view-proto-top a{
 	text-decoration: none;
@@ -472,6 +475,7 @@ text-align: center}
 	border: 2px #fbfbfb solid;
 	text-align: center;
 	padding-top: 5px;
+	border-radius: 4px;
 }
 .view-survey a{
 	text-decoration: none;
