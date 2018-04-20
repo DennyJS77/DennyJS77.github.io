@@ -55,6 +55,7 @@ header{
 
 .container{
 	background-color: #fbfbfb;
+	width: 100%;
 }
 
 body{
@@ -120,8 +121,15 @@ body{
 	width: 100%;
 }
 
+.me{
+	padding-right:16%;
+	padding-left:16%;
+	padding-bottom: 50px;
+	padding-top: 20px;
+	background-color: #fbfbfb;
+}
 .aboutme{
-	width: 90%;
+	width: 85%;
 	margin: auto;
 }
 
