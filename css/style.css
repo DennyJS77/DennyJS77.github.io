@@ -358,13 +358,12 @@ header{
 	text-align: left;
 	background-color: #fbfbfb;
 	float: right;
-	display: inline-block;
-	
+	display: inline-block;	
 }
 
 #wrapper{
 	margin: auto;
-	width: 90%;
+	width: 85%;
 }
 
 
