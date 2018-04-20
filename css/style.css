@@ -236,7 +236,7 @@ button {
 }
 
 .cloud{
-	background: linear-gradient(to right, #1C2834, #2E5178);
+	background: linear-gradient(to right, #1B2631, #2E5180);
 	padding-bottom: 50px;
 	padding-top: 50px;
 	color: #fbfbfb;
@@ -506,9 +506,7 @@ header{
  	float: left;
 }
 
-.prototype h2 {
-	text-align: center;
-}
+
 
 
 .first-iteration, .second-iteration{
