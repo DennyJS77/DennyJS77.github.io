@@ -791,12 +791,8 @@ footer a {
   	}  	
 
   	.first-iteration, .second-iteration{
-		box-sizing: border-box;
-		width: 50%;
-		float: left;
 	 	padding-right: 0px;
-	 	padding-top: 40px;
-	 	padding-bottom: 40px;
+	 	
 
 }
 }
