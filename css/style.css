@@ -21,7 +21,13 @@ h1{
 	margin:0;
 }
 
+h2{
+	font-size: 32px;
+}
+h3{
+	font-size: 24px;
 
+}
 h4{
 	font-size: 18px;
 	margin-top: 2px;
@@ -213,7 +219,7 @@ button {
 
 .aurora-left{
 	box-sizing: border-box;
-	width: 50%;
+	width: 40%;
 	float: left;
 	text-align: center;
 	padding: 5%; 
@@ -223,13 +229,17 @@ button {
 .aurora-left a{
 	background-color: #5FCE1B;
   	font-family: 'Fira Sans', sans serif;
-  	font-size: 16px;
+  	font-size: 18px;
   	font-weight: 400;
   	padding: 16px 32px;
   	border-radius: 4px;
   	text-decoration: none;
   	margin-top: 20px;
+  	color: #2E3138;
+}
 
+.aurora-left p {
+	font-size: 
 }
 
 .button{
@@ -238,16 +248,22 @@ button {
 
 .aurora-right{
 	box-sizing: border-box;
-	width: 50%;
-	float: right;
-
-	
+	width: 60%;
+	float: left;	
 }
 
-.aurora-right img, .aurora-left img{
+.aurora-left img {
 	max-width: 100%;
-	
+	vertical-align: middle;
 }
+
+.aurora-right img {
+	max-width: 80%;
+	vertical-align: middle;
+}
+
+
+
 
 .cloud{
 	background: linear-gradient(to right, #1B2631, #2E5180);
@@ -261,9 +277,7 @@ button {
 
 
 
-.home{
-	padding-top: 50px;
-}
+
 
 
 
@@ -323,27 +337,37 @@ header{
 	
 }
 
-.overview h2, .problem h2, .results h4{
+.overview h2, .problem h2, .solution h2, .results h4{
 	text-align: center
 }
 
 .problem{
 	box-sizing: border-box;
-	float: left;
 	padding: 10px;
-	width: 45%;
+	width: 40%;
 	text-align: left;
 	background-color: #fbfbfb;
+	display: inline-block;
+	float: left;
 }
 
 .solution{
 	box-sizing: border-box;
-	float: right;
 	padding: 10px;
-	width: 50%;
+	width: 40%;
 	text-align: left;
 	background-color: #fbfbfb;
+	float: right;
+	display: inline-block;
+	
 }
+
+#wrapper{
+	margin: auto;
+	width: 80%;
+}
+
+
 	
 .information p, .survey p, .analysis p, .branding p, .ui p, .prototype p{
 	width: 90%;
@@ -361,8 +385,9 @@ header{
 	padding-right: 12px;
 }
 
-.results h3{
+.results-head {
 	padding bottom: 20px;
+	font-size: 18px;
 	color: #fbfbfb;
 	text-align: left;
 }
@@ -382,13 +407,6 @@ header{
 	color:#2782F9;
 }
 
-.userflows {
-	box-sizing: border-box;
-	float: left;
-	width: 50%;
-	padding: 2px;
-}
-
 
 .sitemap{
 	box-sizing: border-box;
@@ -400,14 +418,9 @@ header{
 	width: 50%;
 	float: left;
 	padding: 2px;
+	padding-top: 20px;
 }
 
-.prototype-photo{
-	box-sizing: border-box;
-	width: 100%;
-	padding-top: 20px;
-	padding-bottom:10px;
-}
 
 .bold-number{
 	font-size: 28px;
@@ -416,7 +429,7 @@ header{
 
 
 #ryan, #megan{
-	max-width: 75%;
+	max-width: 50%;
 	padding: 10px;
 	position: relative;
 	
@@ -443,21 +456,16 @@ header{
  .wireframes{
  	box-sizing: border-box;
  	width: 50%;
- 	padding-left: 10px;
- 	padding-right: 10px;
  	padding-top: 20px;
  	padding-bottom: 20px;
  	float: left;
 }
 
 
-
-
 .first-iteration, .second-iteration{
 	box-sizing: border-box;
 	width: 50%;
 	float: left;
-	padding-left: 10px;
  	padding-right: 10px;
  	padding-top: 40px;
  	padding-bottom: 40px;
@@ -481,8 +489,6 @@ header{
 	border-radius: 4px;
 	clear: both;
 	margin-top: 20px;
-	margin-right: auto;
-	margin-left: auto;
 	background-color: #2782F9;
 	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
@@ -517,6 +523,26 @@ header{
 
 }
 
+.view-userflows{
+	width: 200px;
+	height: 40px;
+	border: 2px #2782F9 solid;
+	text-align: center;
+	padding-top: 5px;
+	border-radius: 4px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	background-color: #fbfbfb;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.view-userflows a{
+	text-decoration: none;
+	font-size: 18px; 
+	color: black;
+	font-weight: 500;
+}
 
 
 .get-in-touch{
@@ -623,10 +649,12 @@ footer a {
   		padding-left: 3%;
   	}
 
-	
+	.aurora-right img {
+	max-width: 100%;
+	}
 
 
-.aurora-right{
+	.aurora-right{
   		box-sizing: border-box;
   		min-width: 100%;
   		float: none;
@@ -671,7 +699,7 @@ footer a {
    		margin:auto;
 	}
 
-	.information p, .survey p, .analysis p, .branding p, .ui p, .prototype p{
+	.information p, .survey p, .analysis p, .branding p, .ui p, .prototype p, .overview p{
 		width: 100%;
 	}
 
@@ -707,11 +735,17 @@ footer a {
   		padding: 0px;
   		float: none;
   		width: 100%;
+  		text-align: left;
   	}
 
   	.solution{
   		padding: 0px;
   		float: none;
+  		width: 100%;
+  		text-align: left;
+  	}
+
+  	#wrapper{
   		width: 100%;
   	}
 
