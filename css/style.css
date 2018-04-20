@@ -130,7 +130,7 @@ body{
 .me{
 	padding-right:16%;
 	padding-left:16%;
-	padding-bottom: 50px;
+	padding-bottom: 10px;
 	padding-top: 20px;
 	background-color: #fbfbfb;
 }
@@ -702,7 +702,7 @@ footer a {
    		
 	}
 
-	.prototype img, #laptop {
+	 #laptop {
 		object-fit: scale-down;
    		width:100%;
    		height: 50%;
@@ -789,6 +789,16 @@ footer a {
   		padding-top: 10px;
  		padding-bottom: 10px;
   	}  	
+
+  	.first-iteration, .second-iteration{
+		box-sizing: border-box;
+		width: 50%;
+		float: left;
+	 	padding-right: 0px;
+	 	padding-top: 40px;
+	 	padding-bottom: 40px;
+
+}
 }
 
 
