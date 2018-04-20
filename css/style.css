@@ -364,7 +364,7 @@ header{
 
 #wrapper{
 	margin: auto;
-	width: 80%;
+	width: 90%;
 }
 
 
@@ -442,6 +442,9 @@ header{
 	padding: 10px;
 }
 
+.superuser p, .businessuser p{
+	width: 80%;
+}
 .personas{
 	clear: both;
 	padding-top: 40px;
@@ -756,6 +759,10 @@ footer a {
   		margin: auto;
 
   	}
+
+  	.superuser p, .businessuser p{
+		width: 100%;
+	}
 
   
   	.get-in-touch h3, .get-in-touch a{
