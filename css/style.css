@@ -91,6 +91,12 @@ body{
 
 }
 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
 #logo{
 	float: left;
 }
@@ -230,7 +236,7 @@ button {
 
 }
 
-.aurora-left a{
+.button a{
 	background-color: #56bd18;
   	font-family: 'Fira Sans', sans serif;
   	font-size: 18px;
@@ -242,12 +248,15 @@ button {
   	color: #2E3138;
 }
 
-.aurora-left p {
-	font-size: 
-}
+
 
 .button{
 	margin-top: 40px;
+	display: block;
+}
+
+.button a:hover{
+	background-color: #4ca815;
 }
 
 .aurora-right{
@@ -271,7 +280,10 @@ button {
 	text-align: center;
 	padding-bottom: 40px;
 	margin-top: 0px;
-	font-size: 42px;
+	font-size: 26px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 7px;
 }
 
 .cloud{
@@ -349,6 +361,7 @@ header{
 
 .overview{
 	box-sizing: border-box;	
+	text-align: center;
 	width: 100%;
 	
 }
@@ -361,7 +374,7 @@ header{
 	box-sizing: border-box;
 	padding: 10px;
 	width: 40%;
-	text-align: left;
+	text-align: center;
 	background-color: #fbfbfb;
 	display: inline-block;
 	float: left;
@@ -371,7 +384,7 @@ header{
 	box-sizing: border-box;
 	padding: 10px;
 	width: 40%;
-	text-align: left;
+	text-align: center;
 	background-color: #fbfbfb;
 	float: right;
 	display: inline-block;	
@@ -501,11 +514,18 @@ header{
 
 #ui-header{
 	text-align: left;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 7px;
 	clear: both;
 }
 
 
-
+.view-proto:hover, .view-proto-top:hover {
+	background-color: #0b69e5;
+	border: 2px #0b69e5 solid;
+}
 
 .view-proto{
 	width: 200px;
@@ -524,6 +544,7 @@ header{
 	font-size: 18px; 
 	color:#fbfbfb;
 	font-weight: 500;
+	display: block;
 
 }
 
@@ -547,7 +568,13 @@ header{
 	font-size: 18px; 
 	color:#fbfbfb;
 	font-weight: 500;
+	display: block;
 
+}
+
+.view-userflows:hover {
+	background-color: #e0e0e0;
+	
 }
 
 .view-userflows{
@@ -568,6 +595,7 @@ header{
 	font-size: 18px; 
 	color: black;
 	font-weight: 500;
+	display: block;
 }
 
 
